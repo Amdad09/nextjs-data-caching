@@ -10,6 +10,9 @@ const Navbar = () => {
                 <CustomLink path="/posts">Posts</CustomLink>{' '}
             </li>
             <li>
+                <CustomLink path="/products">Products</CustomLink>{' '}
+            </li>
+            <li>
                 <CustomLink path="/dashboard">Dashboard</CustomLink>
             </li>
             <li>
@@ -21,7 +24,7 @@ const Navbar = () => {
         </>
     );
   return (
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
           <div className="navbar-start">
               <div className="dropdown">
                   <div

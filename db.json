@@ -1,0 +1,60 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Wireless Headphones",
+            "description": "Premium wireless headphones with active noise cancellation and deep bass.",
+            "price": 79.99,
+            "category": "Electronics",
+            "brand": "SoundMax",
+            "rating": 4.6,
+            "stock": 24,
+            "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+        },
+        {
+            "id": 2,
+            "name": "Smart Watch 0.5",
+            "description": "Modern smartwatch with fitness tracking, heart-rate monitoring, and notifications.",
+            "price": 129.99,
+            "category": "Wearables",
+            "brand": "TechTime",
+            "rating": 4.4,
+            "stock": 15,
+            "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+        },
+        {
+            "id": 3,
+            "name": "Running Shoes",
+            "description": "Lightweight running shoes designed for comfort, flexibility, and everyday workouts.",
+            "price": 64.99,
+            "category": "Footwear",
+            "brand": "RunPro",
+            "rating": 4.7,
+            "stock": 32,
+            "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+        },
+        {
+            "id": 4,
+            "name": "Mechanical Keyboard",
+            "description": "RGB mechanical keyboard with tactile switches and a durable aluminum frame.",
+            "price": 89.99,
+            "category": "Computer Accessories",
+            "brand": "KeyCraft",
+            "rating": 4.8,
+            "stock": 18,
+            "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+        },
+        {
+            "id": 5,
+            "name": "Leather Backpack",
+            "description": "Minimal leather backpack with multiple compartments for laptops and daily essentials.",
+            "price": 59.99,
+            "category": "Accessories",
+            "brand": "UrbanCarry",
+            "rating": 4.5,
+            "stock": 21,
+            "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+        }
+    ]
+}
+
