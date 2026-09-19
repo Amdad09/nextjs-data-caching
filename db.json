@@ -55,6 +55,73 @@
             "stock": 21,
             "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
         }
+    ],
+
+    "users": [
+        {
+            "id": 1,
+            "name": "Aarav Sharma",
+            "username": "aarav01",
+            "email": "aarav@example.com",
+            "phone": "+880 1712-345678",
+            "website": "aarav.dev",
+            "company": "TechNova",
+            "role": "Frontend Developer",
+            "location": "Dhaka, Bangladesh",
+            "bio": "Frontend developer passionate about building modern and user-friendly web applications.",
+            "avatar": "https://i.pravatar.cc/500?img=12"
+        },
+        {
+            "id": 2,
+            "name": "Sophia Carter",
+            "username": "sophiac",
+            "email": "sophia@example.com",
+            "phone": "+880 1812-456789",
+            "website": "sophiac.dev",
+            "company": "PixelCraft",
+            "role": "UI/UX Designer",
+            "location": "London, UK",
+            "bio": "UI/UX designer focused on creating simple, accessible, and beautiful digital experiences.",
+            "avatar": "https://i.pravatar.cc/500?img=47"
+        },
+        {
+            "id": 3,
+            "name": "Daniel Wilson",
+            "username": "danielw",
+            "email": "daniel@example.com",
+            "phone": "+1 415-555-0198",
+            "website": "danielwilson.dev",
+            "company": "CloudCore",
+            "role": "Backend Developer",
+            "location": "San Francisco, USA",
+            "bio": "Backend developer specializing in APIs, databases, and scalable server-side applications.",
+            "avatar": "https://i.pravatar.cc/500?img=33"
+        },
+        {
+            "id": 4,
+            "name": "Maya Patel",
+            "username": "mayap",
+            "email": "maya@example.com",
+            "phone": "+91 98765-43210",
+            "website": "mayapatel.dev",
+            "company": "DevSphere",
+            "role": "Full Stack Developer",
+            "location": "Bangalore, India",
+            "bio": "Full stack developer who enjoys turning ideas into complete and scalable web applications.",
+            "avatar": "https://i.pravatar.cc/500?img=32"
+        },
+        {
+            "id": 5,
+            "name": "Ethan Brown",
+            "username": "ethanb",
+            "email": "ethan@example.com",
+            "phone": "+1 212-555-0147",
+            "website": "ethanbrown.dev",
+            "company": "NextWave",
+            "role": "Software Engineer",
+            "location": "New York, USA",
+            "bio": "Software engineer interested in distributed systems, developer tools, and clean architecture.",
+            "avatar": "https://i.pravatar.cc/500?img=11"
+        }
     ]
 }
-

@@ -1,8 +1,18 @@
 import Link from 'next/link';
+import type { PostCardProps } from '../page';
 
 interface PostDetailsPageProps {
     params: Promise<{ postId: number }>;
 }
+
+export const generateStaticParams = async () => {
+    const posts: PostCardProps[] = await fetch(`https://jsonplaceholder.typicode.com/posts`, {next: {revalidate: 60}}).then(res => res.json());
+
+    return posts.map(post => (
+        { postId: post.id.toString() }
+    ))
+
+};
 const PostDetailsPage = async ({ params }: PostDetailsPageProps) => {
     const { postId } = await params;
     const res = await fetch(

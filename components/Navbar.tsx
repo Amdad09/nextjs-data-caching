@@ -13,11 +13,12 @@ const Navbar = () => {
                 <CustomLink path="/products">Products</CustomLink>{' '}
             </li>
             <li>
-                <CustomLink path="/dashboard">Dashboard</CustomLink>
+                <CustomLink path="/users">Users</CustomLink>{' '}
             </li>
             <li>
-                <CustomLink path="/about">About</CustomLink>
+                <CustomLink path="/dashboard">Dashboard</CustomLink>
             </li>
+            
             <li>
                 <CustomLink path="/contact">Contact</CustomLink>
             </li>
