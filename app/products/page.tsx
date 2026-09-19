@@ -13,7 +13,7 @@ export interface ProductProps{
     "stock": number;
     "image": string;
 }
-const getProducts = async () => {
+export const getProducts = async (): Promise<ProductProps[]> => {
     const res = await fetch('http://localhost:5000/products', {
         cache: 'no-store'
     });

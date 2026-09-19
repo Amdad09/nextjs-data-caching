@@ -11,9 +11,12 @@ const CustomLink = ({ children, path }: CustomLinkProps) => {
     const pathName = usePathname();
     const isSamePath = path === pathName;
   return (
-    <Link className={`${isSamePath?'text-blue-600':''} font-medium text-sm`} href={ path }>
-        {children}
-    </Link>
+      <Link
+          className={`${isSamePath ? 'text-[#00d991]' : ''} font-medium text-sm`}
+          href={path}
+      >
+          {children}
+      </Link>
   );
 };
 

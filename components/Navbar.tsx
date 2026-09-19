@@ -1,4 +1,5 @@
 import CustomLink from "@/ui/CustomLink";
+import Link from "next/link";
 
 const Navbar = () => {
     const links = (
@@ -56,13 +57,13 @@ const Navbar = () => {
                   >
                       {links}
                   </ul>
-              </div>
-              <a className="btn btn-ghost text-xl">daisyUI</a>
+              </div> 
+              <Link href={'/'} className="text-2xl font-bold text-white">
+                  Dev<span className="text-[#00d991]">Hub</span>
+              </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
-              <ul className="menu menu-horizontal px-1">
-                  {links}
-              </ul>
+              <ul className="menu menu-horizontal px-1">{links}</ul>
           </div>
           <div className="navbar-end">
               <a className="btn btn-neutral">Button</a>

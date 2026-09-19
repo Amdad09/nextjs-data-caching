@@ -14,7 +14,7 @@ export interface User {
     avatar: string;
 }
 
-export const getUsers = async () => {
+export const getUsers = async (): Promise<User[]> => {
     const res = await fetch('http://localhost:5000/users', {cache: 'no-store'});
     if (!res.ok) throw new Error('Failed to fetch users');
     return res.json();
